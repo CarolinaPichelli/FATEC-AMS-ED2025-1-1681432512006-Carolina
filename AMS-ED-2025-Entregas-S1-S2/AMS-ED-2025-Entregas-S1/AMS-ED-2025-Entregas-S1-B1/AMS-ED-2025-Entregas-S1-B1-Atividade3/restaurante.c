@@ -1,7 +1,7 @@
 /*----------------------------------------------------------------------------------*/
 /*   FATEC-SC#o Caetano do Sul                 Estrutura de Dados                   */
 /*                         Id da Atividade: S1-B1-3                                 */
-/*             Objetivo: << MaipulaC'C#o de Lista Ligada >>                         */
+/*             Objetivo: << Maipulação de Lista Ligada >>                           */
 /*                                                                                  */
 /*                                  Autor: Carolina Pichelli Souza                  */
 /*                                                                  Data:14/03/2025 */
@@ -72,7 +72,6 @@ Pedido* InserirPedido(Pedido* Lista)
 
 	NewPedido->Proximo = Lista;
 
-	//printf("Status do pedido: %s\n", TipoStatus[0]);
 	return NewPedido;
 }
 
